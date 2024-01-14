@@ -17,7 +17,96 @@ but understanding how developers think is invaluable.
     <title>SignUp</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <main class="main">
+        <div class="wrapper">
+          <section class="hero">
+            <div class="hero__content">
+              <h1 class="title">Learn to code by watching others</h1>
+              <p class="paragraph">
+                See how experienced developers solve problems in real-time.
+                Watching scripted tutorials is great, but understanding how
+                developers think is invaluable.
+              </p>
+            </div>
+            <div class="action">
+              <div class="action__opening-container">
+                <p class="action__opening">
+                  <strong>Try it free 7 days</strong> then $20/mo. thereafter
+                </p>
+              </div>
+              <div class="action__form">
+                <form class="form">
+                  <div class="form__item">
+                    <div class="form__input-container">
+                      <label for="firstName" class="form__label"
+                        >First Name</label
+                      >
+                      <input type="text" class="form__input" id="firstName" />
+                      <img
+                        src="./src/assets/images/icon-error.svg"
+                        alt=""
+                        class="form__error-icon"
+                      />
+                    </div>
+                    <p class="form__error">Nie możę być puste</p>
+                  </div>
+                  <div class="form__item">
+                    <div class="form__input-container">
+                      <label for="lastName" class="form__label"
+                        >Last Name</label
+                      >
+                      <input type="text" class="form__input" id="lastName" />
+                      <img
+                        src="./src/assets/images/icon-error.svg"
+                        alt=""
+                        class="form__error-icon"
+                      />
+                    </div>
+                    <p class="form__error">Nie możę być puste</p>
+                  </div>
+                  <div class="form__item">
+                    <div class="form__input-container">
+                      <label for="email" class="form__label"
+                        >Email Address</label
+                      >
+                      <input type="text" class="form__input" id="email" />
+                      <img
+                        src="./src/assets/images/icon-error.svg"
+                        alt=""
+                        class="form__error-icon"
+                      />
+                    </div>
+                    <p class="form__error">Nie możę być puste</p>
+                  </div>
+                  <div class="form__item">
+                    <div class="form__input-container">
+                      <label for="password" class="form__label">Password</label>
+                      <input
+                        type="password"
+                        class="form__input"
+                        id="password"
+                      />
+                      <img
+                        src="./src/assets/images/icon-error.svg"
+                        alt=""
+                        class="form__error-icon"
+                      />
+                    </div>
+                    <p class="form__error">Nie możę być puste</p>
+                  </div>
+                  <button class="form__submit">Claim your free trial</button>
+                </form>
+                <p class="action__addition">
+                  By clicking the button, you are agreeing to our
+                  <a href="#" class="link--terms">Terms and Services</a>.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>

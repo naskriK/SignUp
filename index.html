@@ -39,10 +39,15 @@ but understanding how developers think is invaluable.
                 <form class="form">
                   <div class="form__item">
                     <div class="form__input-container">
+                      <input
+                        type="text"
+                        class="form__input"
+                        required
+                        id="firstName"
+                      />
                       <label for="firstName" class="form__label"
                         >First Name</label
                       >
-                      <input type="text" class="form__input" id="firstName" />
                       <img
                         src="./src/assets/images/icon-error.svg"
                         alt=""
@@ -53,10 +58,15 @@ but understanding how developers think is invaluable.
                   </div>
                   <div class="form__item">
                     <div class="form__input-container">
+                      <input
+                        type="text"
+                        required
+                        class="form__input"
+                        id="lastName"
+                      />
                       <label for="lastName" class="form__label"
                         >Last Name</label
                       >
-                      <input type="text" class="form__input" id="lastName" />
                       <img
                         src="./src/assets/images/icon-error.svg"
                         alt=""
@@ -67,10 +77,15 @@ but understanding how developers think is invaluable.
                   </div>
                   <div class="form__item">
                     <div class="form__input-container">
+                      <input
+                        type="text"
+                        required
+                        class="form__input"
+                        id="email"
+                      />
                       <label for="email" class="form__label"
                         >Email Address</label
                       >
-                      <input type="text" class="form__input" id="email" />
                       <img
                         src="./src/assets/images/icon-error.svg"
                         alt=""
@@ -81,12 +96,13 @@ but understanding how developers think is invaluable.
                   </div>
                   <div class="form__item">
                     <div class="form__input-container">
-                      <label for="password" class="form__label">Password</label>
                       <input
                         type="password"
                         class="form__input"
                         id="password"
+                        required
                       />
+                      <label for="password" class="form__label">Password</label>
                       <img
                         src="./src/assets/images/icon-error.svg"
                         alt=""
